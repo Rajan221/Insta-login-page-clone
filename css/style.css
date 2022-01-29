@@ -1,0 +1,162 @@
+body {
+  background-color: #fafafa;
+  height: 1000px;
+}
+
+#main {
+  display: flex;
+  margin-left: 18%;
+}
+
+/* for bannar */
+.container {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* for form */
+.data {
+  padding-top: 55px;
+}
+
+.login {
+  background-color: white;
+  height: 380px;
+  width: 340px;
+
+  border: 0.5px solid #dbdbdb;
+}
+
+.insta {
+  font-family: "Billabong", sans-serif;
+  font-size: 60px;
+  padding: 20px;
+  text-align: center;
+}
+
+.input {
+  height: 25px;
+  width: 250px;
+  margin-top: 5px;
+  margin-left: 40px;
+  padding: 5px;
+  border: 0.5px solid #dbdbdb;
+}
+
+.button {
+  text-align: center;
+  padding: 6px;
+  width: 262px;
+  margin-top: 10px;
+  margin-left: 40px;
+  background-color: #b2dffc;
+  border: none;
+  border-radius: 3px;
+  font-weight: 900;
+  color: white;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: #1d95f6;
+  transition: 0.5s;
+}
+
+.or {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.line {
+  border: 1px solid #dbdbdb;
+  width: 100px;
+  height: 0px;
+
+  margin-left: 14px;
+  margin-top: 10px;
+  margin-right: 14px;
+}
+
+#fb {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.fab {
+  color: #385185;
+  margin-right: 10px;
+}
+
+.withFb {
+  color: #385185;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+#forgot {
+  color: #385185;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.noAcc {
+  background-color: white;
+  height: 35px;
+  width: 340px;
+  margin-top: 10px;
+  border: 0.5px solid #dbdbdb;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#get {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.appstore {
+  height: 50px;
+  width: 140px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.store {
+  height: 50px;
+  width: 140px;
+}
+
+/* animation */
+.back {
+  height: 427px;
+  width: 240px;
+  background-color: black;
+  position: absolute;
+  margin-top: 123px;
+  margin-left: 147px;
+  animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    transition: 3s;
+    background-image: url(/img/1.jpg);
+  }
+  20% {
+    background-image: url(/img/2.jpg);
+  }
+  40% {
+    background-image: url(/img/3.jpg);
+  }
+  80% {
+    background-image: url(/img/4.jpg);
+  }
+  100% {
+    transition: 3s;
+    background-image: url(/img/1.jpg);
+  }
+}
